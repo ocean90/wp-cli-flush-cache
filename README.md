@@ -6,7 +6,7 @@ Clear the cache of a user.
 ## Using
 
 ```
-wp user user flush-cache <user>
+wp user flush-cache <user>
 ```
 
 **OPTIONS**
