@@ -14,6 +14,8 @@ wp user flush-cache <user>
 	<user>
 		User ID, user email, or user login.
 
+---
+
 ```
 wp site flush-cache <id>
 ```
