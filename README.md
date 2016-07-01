@@ -1,7 +1,7 @@
-ocean90/wp-cli-user-flush-cache
+ocean90/wp-cli-flush-cache
 =========================
 
-Clear the cache of a user.
+Clear the cache of a user or a site.
 
 ## Using
 
@@ -14,6 +14,14 @@ wp user flush-cache <user>
 	<user>
 		User ID, user email, or user login.
 
+```
+wp site flush-cache <id>
+```
+
+**OPTIONS**
+
+	<id>
+		ID of a site.
 
 ## Installing
 
