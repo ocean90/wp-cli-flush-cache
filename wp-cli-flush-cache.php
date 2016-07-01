@@ -47,9 +47,9 @@ function ds_wpcli_flush_cache_for_site( $args, $assoc_args ) {
 	$fetcher = new \WP_CLI\Fetchers\Site();
 	$site = $fetcher->get_check( $args[0] );
 
-	//clean_blog_cache( $site->blog_id );
+	clean_blog_cache( $site );
 
-	WP_CLI::success( "Cache flushed for site '$site->siteurl'." );
+	WP_CLI::success( "Cache flushed for site '$site->domain$site->path'." );
 }
 
 WP_CLI::add_command( 'site flush-cache', 'ds_wpcli_flush_cache_for_site' );
