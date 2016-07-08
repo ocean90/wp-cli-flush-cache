@@ -9,7 +9,7 @@
 	"extras": {
 		"commands": [
 			"user flush-cache",
-			"site flush-cache",
+			"site flush-cache"
 		]
 	}
 }
