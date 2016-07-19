@@ -25,10 +25,7 @@ function ds_wpcli_flush_cache_for_user( $args, $assoc_args ) {
 	$fetcher = new WP_CLI\Fetchers\User();
 	$user = $fetcher->get_check( $args[0] );
 
-	wp_cache_delete( $user->user_email, 'useremail' );
-	wp_cache_delete( $user->user_nicename, 'userslugs' );
-	wp_cache_delete( $user->user_login, 'userlogins' );
-	wp_cache_delete( $user->ID, 'users' );
+	clean_user_cache( $user );
 
 	WP_CLI::success( "Cache flushed for user '$user->user_login'." );
 }
