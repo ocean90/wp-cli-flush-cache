@@ -29,4 +29,4 @@ wp site flush-cache <id>
 
 Installing this package requires WP-CLI v0.23.0 or greater. Update to the latest stable release with `wp cli update`.
 
-Once you've done so, you can install this package with `wp package install ocean90/wp-cli-user-flush-cache`.
+Once you've done so, you can install this package with `wp package install ocean90/wp-cli-flush-cache`.
