@@ -1,6 +1,7 @@
 {
 	"name": "ocean90/wp-cli-flush-cache",
 	"description": "Clear the cache of a user or a site.",
+	"type": "wp-cli-package",
 	"homepage": "https://github.com/ocean90/wp-cli-flush-cache",
 	"license": "GPL-2.0+",
 	"autoload": {
